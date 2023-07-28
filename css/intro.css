@@ -91,4 +91,8 @@ main img {
         font-size: 2.8rem;
         line-height: 3rem;
     }
+
+    .intro-title::before {
+        padding-left: 40px;
+    }
 }
