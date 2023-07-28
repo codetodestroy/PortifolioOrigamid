@@ -1,0 +1,43 @@
+main {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 140px;
+    align-items: center;
+}
+
+main img {
+    object-fit: cover;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.intro-title {
+    color: #141414;
+    font-size: 4rem;
+    line-height: 4.4rem;
+    position: relative;
+}
+
+.intro-title::before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: url('../img/Detalhe.svg') no-repeat center;
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    z-index: -1;
+}
+
+.intro-description {
+    font-size: 1.3rem
+}
+

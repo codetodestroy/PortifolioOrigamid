@@ -3,11 +3,23 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #525252;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
+}
+
 ul {
     list-style: none;
 }
 
-body {
-    font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
-    font-size: 18px;
+img {
+    display: block;
+    max-width: 100%;
 }
