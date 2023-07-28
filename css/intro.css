@@ -79,6 +79,14 @@ main img {
 }
 
 @media (max-width: 480px) {
+    main {
+        padding-top: 80px;
+    }
+
+    main img {
+        display: none;
+    }
+
     .intro-title {
         font-size: 2.8rem;
         line-height: 3rem;
