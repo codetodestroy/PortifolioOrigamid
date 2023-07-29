@@ -42,3 +42,18 @@
     font-size: 1rem;
     grid-column: 1 / -1;
 }
+
+@media (max-width: 700px) {
+    .contato {
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+
+    .contato-description {
+        max-width: initial;
+    }
+
+    .contato-list {
+        font-size: 1.8rem;
+    }
+}
