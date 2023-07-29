@@ -1,0 +1,44 @@
+.contato-container {
+    background-color: #000000;
+}
+
+.contato {
+    max-width: 1200px;
+    padding: 140px 20px 70px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 140px;
+    position: relative;
+}
+
+.contato::before {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: url('../img/Detalhe.svg') no-repeat center;
+    position: absolute;
+    top: -70px;
+}
+
+.contato-description {
+    max-width: 32ch;
+    font-size: 1.3rem;
+    line-height: 1.77rem;
+}
+
+.contato-list {
+    font-size: 2.16rem;
+    font-weight: bold;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contato-copy {
+    font-size: 1rem;
+    grid-column: 1 / -1;
+}
