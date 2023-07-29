@@ -176,6 +176,12 @@
 }
 
 @media (max-width: 480px) {
+    .formacao-list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
     .experiencia-title {
         font-size: 3rem;
     }
