@@ -168,14 +168,10 @@
         gap: 10px;
     }
 
-    .formacao-courses, .formacao-languages {
-        padding: 20px;
-    }
-
 }
 
 @media (max-width: 480px) {
-    .formacao-title {
+    .experiencia-title {
         font-size: 3rem;
     }
 }
