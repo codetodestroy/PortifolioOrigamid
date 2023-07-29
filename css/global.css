@@ -15,6 +15,15 @@ h3 {
     font-family: 'Playfair Display', Arial, Helvetica, sans-serif;
 }
 
+h2 {
+    font-size: 8rem;
+    line-height: 8rem;
+}
+
+strong {
+    color: #000;
+}
+
 ul {
     list-style: none;
 }
