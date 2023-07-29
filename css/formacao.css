@@ -146,6 +146,11 @@
         max-width: initial;
         text-align: center;
     }
+
+    .formacao-subtitle {
+        margin-left: 36px;
+    }
+
 }
 
 @media (max-width: 600px) {
