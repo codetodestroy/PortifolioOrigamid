@@ -188,7 +188,11 @@
 }
 
 @media (max-width: 350px) {
+    .formacao {
+        gap: 0px;
+    }
+    
     .formacao-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 }

@@ -96,3 +96,9 @@ main img {
         padding-left: 40px;
     }
 }
+
+@media (max-width: 350px) {
+    .intro-title {
+        font-size: 2.2rem;
+    }
+}
