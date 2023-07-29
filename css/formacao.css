@@ -17,13 +17,13 @@
     font-family: inherit;
     max-width: 4.4ch;
     word-wrap: break-word;
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .formacao div {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 30px;
 }
 
 .formacao-description {
@@ -40,6 +40,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 40px;
 }
 
 .formacao-item {
@@ -90,11 +91,10 @@
     font-family: inherit;
     font-size: 0.77rem;
     font-weight: bold;
-    margin-bottom: 30px;
     position: relative;
 }
 
-.formacao-courses .formacao-subtitle::before, .formacao-languages .formacao-subtitle::before {
+.linguagens::before, .idiomas::before {
     content: "";
     width: 24px;
     height: 24px;
@@ -104,11 +104,11 @@
     left: -36px;
 }
 
-.formacao-courses .formacao-subtitle::before {
+.linguagens::before {
     background-image: url('../img/Cursos.svg');
 }
 
-.formacao-languages .formacao-subtitle::before {
+.idiomas::before {
     background-image: url('../img/Idiomas.svg');
 }
 
@@ -191,7 +191,7 @@
     .formacao {
         gap: 0px;
     }
-    
+
     .formacao-title {
         font-size: 2rem;
     }
