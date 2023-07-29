@@ -27,6 +27,7 @@
 }
 
 .formacao-description {
+    max-width: 39.9ch;
     line-height: 1.7rem;
 }
 
@@ -121,4 +122,60 @@
 
 .formacao-time, .formacao-language-level {
     color: #8F8F8F;
+}
+
+@media (max-width: 885px) {
+    .formacao {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 40px;
+    }    
+
+    .formacao-title {
+        max-width: initial;
+        font-size: 7rem;
+    }
+
+    .formacao div {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .formacao-description {
+        max-width: initial;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .formacao {
+        gap: 20px;
+    }
+
+    .formacao-title {
+        max-width: initial;
+        font-size: 4rem;
+    }
+
+    .formacao div {
+        gap: 40px;
+    }
+
+    .formacao-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .formacao-courses, .formacao-languages {
+        padding: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .formacao-title {
+        font-size: 3rem;
+    }
 }
